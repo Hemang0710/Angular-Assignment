@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "node config.js && ng build",
+  "outputDirectory": "dist/browser",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
